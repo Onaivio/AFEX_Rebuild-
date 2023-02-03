@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.darkModeSearch {
+    background: #262424;
+}
+
+.darkSidebar {
+    background: #181818;
+    color: white;
+}
+
+.darkBg {
+    background: #1E1E1E;
+    color: white;
+}
+
+.lightBg {
+    background: #F9F9F9;
+}
+
+.activeLight {
+    background: #B55B52 !important;
+    color: white;
+}
+
+.activeDark {
+    background: #C7584D !important;
+}
+
+#hoverArrow:hover .next {
+    transform: scale(0.6) !important;
+}
